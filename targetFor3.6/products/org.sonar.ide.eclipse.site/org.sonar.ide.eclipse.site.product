@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="SonarQube Eclipse Product" uid="org.sonar.ide.eclipse.site" version="3.4.0.201403301352" useFeatures="true" includeLaunchers="false">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.sonar.ide.eclipse.thirdparty.feature"/>
+      <feature id="org.sonar.ide.eclipse.cdt.feature"/>
+      <feature id="org.sonar.ide.eclipse.jdt.feature"/>
+      <feature id="org.sonar.ide.eclipse.m2e.feature"/>
+      <feature id="org.sonar.ide.eclipse.pydev.feature"/>
+   </features>
+
+
+</product>
